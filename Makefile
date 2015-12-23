@@ -1,7 +1,7 @@
 PROG=git-not-tracked
 CC=gcc
-CFLAGS=-Llibs/libgit2/build -Wall $(shell pkg-config --cflags libgit2) -Wl,-t
-LDFLAGS=$(shell pkg-config --libs libgit2)
+CFLAGS=-Wall
+LDFLAGS=-L/usr/local/lib -lgit2
 OBJS=
 PREFIX=/usr/local/bin
 
