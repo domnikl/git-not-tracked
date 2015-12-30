@@ -1,8 +1,8 @@
 PROG=git-not-tracked
 CC=gcc
 CFLAGS=-Wall
-LDFLAGS=-L/usr/local/lib -lgit2
-OBJS=
+LDFLAGS=-lgit2
+OBJS=libgit2-helper.o
 PREFIX=/usr/local/bin
 
 default: build
