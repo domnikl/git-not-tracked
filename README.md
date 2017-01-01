@@ -2,6 +2,13 @@
 
 Finds all git branches, which have no remote tracking branch configured.
 
+## Installation
+
+```
+make
+make install
+```
+
 ## License
 
 (The MIT License)
